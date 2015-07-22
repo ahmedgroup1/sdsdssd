@@ -1,0 +1,7 @@
+testing_symfony_basic_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: TestingSymfonyBasicBundle:Default:index }
+    
+testing_symfony_basic_hello_world:
+    path:     /helloworld
+    defaults: { _controller: TestingSymfonyBasicBundle:Basic:hello }
